@@ -67,3 +67,13 @@ python pyguard.py --file your_script.py --pass "YourStrongPassword" --name "MyAp
 
 ## ⚠️ Disclaimer
 This tool is intended for protecting intellectual property. No encryption is 100% unhackable, but PyGuard provides a significantly higher barrier than standard bundling tools.
+### NOTE :
+
+ you need to run :
+ 
+ python3 -m venv venv 
+ 
+ source venv/bin/activate 
+ 
+ Mybe you need to install ===> sudo apt install patchelf
+
